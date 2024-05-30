@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex justify-between">
-        <Link to="/" className="text-white">Movies</Link>
-        <Link to="/favorites" className="text-white">Favorites</Link>
+    <nav className="bg-blue-700 py-6 px-4 justify-center ">
+      <div className="container flex items-center justify-start gap-4">
+        <Link to="/" className="text-white rounded-lg text-xl bg-sky-400 p-2">Movies</Link>
+        <Link to="/favorites" className="text-white text-xl rounded-lg bg-sky-400 p-2">Favorites</Link>
       </div>
     </nav>
   );
