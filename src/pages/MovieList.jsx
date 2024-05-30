@@ -10,7 +10,7 @@ const MovieList = () => {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await axios.get(import.meta.env.VITE_API_URL);
+      const response = await axios.get(import.meta.env.API_URL);
       dispatch(setMovies(response.data));
     };
 

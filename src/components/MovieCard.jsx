@@ -10,7 +10,7 @@ const MovieCard = ({ movie }) => {
   const isFavorite = favorites.find((fav) => fav.id === movie.id);
   const [posterUrl, setPosterUrl] = useState('');
 
-  const apiKey = import.meta.env.VITE_TMDB_API_KEY;
+  const apiKey = import.meta.env.TMDB_API_KEY;
 
   useEffect(() => {
     const fetchMovieImage = async () => {
