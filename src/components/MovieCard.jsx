@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleFavorite } from '../store/favoritesSlice';
 import { FaHeart, FaRegHeart } from 'react-icons/fa';
